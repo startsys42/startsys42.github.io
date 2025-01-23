@@ -10,11 +10,16 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
-    color: white;
+    background-color: #ffffff;
+    color: black;
     padding: 10px 0;
     z-index: 1000;
     transition: transform 0.3s ease-in-out; /* Para el efecto de aparecer/desaparecer */
+}
+
+.nav-menu{
+
+    background
 }
 
 .nav-bar.hidden {
