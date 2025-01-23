@@ -27,10 +27,6 @@ background-color: #ffffff;
       list-style: none;
 }
 
-.nav-bar.hidden {
-    transform: translateY(-100%); /* Oculta el menú al desplazarse hacia abajo */
-}
-
 
 .div-header{ display: flex; /* Activa Flexbox */
     align-items: center; /* Alinea verticalmente al centro */
@@ -49,7 +45,7 @@ background-color: #ffffff;
 
 /* Estilo de la Imagen */
 .div-header img{
-    max-width: 40%; /* La imagen ocupa hasta el 40% del contenedor */
+    max-width: 50%; /* La imagen ocupa hasta el 40% del contenedor */
     height: auto; /* Mantiene las proporciones originales */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra */
