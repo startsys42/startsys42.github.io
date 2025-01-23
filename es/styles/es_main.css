@@ -24,7 +24,7 @@ body {
   
     max-height: 40px;
     color: black;
-      border-radius: 0 0 20px 20px; /* Bordes redondeados solo abajo */
+      
   
 margin-buttom:10px;
   
@@ -53,6 +53,16 @@ background-color: #ffffff;
     
     font-weight: bold;
 }
+
+
+.nav-menu li:first-child {
+   border-radius: 0 0 20px 20px; /* Bordes redondeados solo abajo */
+}
+
+.nav-menu li:last-child {
+ border-radius: 0 0 20px 20px; /* Bordes redondeados solo abajo */
+}
+
 header {
     display: flex;
   flex-direction: column; /* Organiza los elementos de arriba a abajo */
