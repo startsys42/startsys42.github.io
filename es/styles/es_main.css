@@ -19,7 +19,7 @@ body {
  /*   position: absolute;*/
     position: fixed;
     top: 0;
-   
+   background-color:white;
     right: 10%;
    padding: 10px 20px;
     min-height: 50px;
