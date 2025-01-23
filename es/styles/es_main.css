@@ -22,6 +22,7 @@ body {
 
 .nav-menu{
 background-color: #ffffff;
+     display: inline-block; /* El menú ocupa solo el espacio necesario */
      margin: 0;
     padding: 0;
       list-style: none;
