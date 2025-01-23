@@ -87,6 +87,7 @@ header img {
     width: auto; /* Mantiene las proporciones de la imagen */
    
     object-fit: cover; /* Asegura que la imagen cubra el área disponible sin distorsionarse */
+     display: block;
 }
 
 main{
