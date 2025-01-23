@@ -6,7 +6,7 @@ body {
 }
 
 .nav-bar {
-    position: fixed;
+    position: absolute;;
     top: 0;
     right: 10px;
     width: 100%;
@@ -32,7 +32,8 @@ background-color: #ffffff;
     align-items: center; /* Alinea verticalmente al centro */
     justify-content: space-between; /* Espacia los elementos: texto a la izquierda, imagen a la derecha */
     width: 90%; /* Ancho del contenedor */
-    max-width: 1800px; /* Máximo ancho del contenedor */
+   /* max-width: 1800px;  Máximo ancho del contenedor */
+            max-heig
     margin: auto; /* Centra horizontalmente */
            }
 
