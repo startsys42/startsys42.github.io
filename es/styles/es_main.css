@@ -77,7 +77,7 @@ header h1 {
     position: absolute; /* Esto permite que se posicione sobre la imagen en pantallas pequeñas */
     left: 20px; /* Espacio desde el borde izquierdo */
     z-index: 1; /* Asegura que el texto quede por encima de la imagen */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Sombra para hacer el texto legible sobre la imagen */
+  
 }
 
 /* Estilo para la imagen */
