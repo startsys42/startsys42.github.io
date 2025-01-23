@@ -6,16 +6,20 @@
 }
 
 body {
-    margin: 0;
-    padding: 0px 20px;
+  
+  
     font-family: Arial, sans-serif;
     line-height: 1.6;
   background-color:#f6f4f0;
 }
 header {
-    position: relative; /* Necesario para posicionar el menú absoluto dentro */
-   margin: 0;
-    padding: 0;
+   padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 
