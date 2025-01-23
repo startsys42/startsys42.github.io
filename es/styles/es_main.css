@@ -43,7 +43,7 @@ background-color: #ffffff;
 .nav-menu li{
      display: inline-block;
      padding: 15px 15px;
-    padding: 0px 20px;
+    
 }
 
 .nav-menu a {
@@ -99,7 +99,7 @@ main{
     width:70%;          /* Hace que el contenedor ocupe toda la altura de la pantalla */
     text-align: left;
     margin-top: 50px;
-    margin-buttom: 50px;
+    padding-buttom: 50px;
 }
 
 main h1,p{
