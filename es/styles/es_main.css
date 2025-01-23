@@ -61,7 +61,7 @@ header {
     height: 90vh; /* Establece la altura máxima a la mitad de la altura de la pantalla */
     max-height: 1000px; /* Limita la altura de la imagen a 540px (mitad de Full HD) */
     width: 100%;
-
+ margin-top: 60px;
 
 
 
