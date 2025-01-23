@@ -53,16 +53,16 @@ background-color: #ffffff;
     
     font-weight: bold;
 }
-/*
+
 
 .nav-menu li:first-child {
-   border-radius: 0 0 20px 20px; 
+   border-radius: 0 0 20px 0; 
 }
 
 .nav-menu li:last-child {
- border-radius: 0 0 20px 20px; 
+ border-radius: 0 0 0 20px; 
 }
-*/
+
 header {
     display: flex;
   flex-direction: column; /* Organiza los elementos de arriba a abajo */
