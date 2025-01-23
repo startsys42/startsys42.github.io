@@ -4,3 +4,28 @@ body {
     line-height: 1.6;
   background-color:#f6f4f0;
 }
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out; /* Para el efecto de aparecer/desaparecer */
+}
+
+.nav-bar.hidden {
+    transform: translateY(-100%); /* Oculta el menú al desplazarse hacia abajo */
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
