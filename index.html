@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Idioma predeterminado como respaldo -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirección Automática</title>
+    <script>
+        // Función para detectar el idioma y redirigir
+        function redirectBasedOnLanguage() {
+            // Obtener el idioma principal del navegador
+            const userLang = navigator.language || navigator.userLanguage;
+
+            // Definir redirecciones según el idioma
+            const languageMap = {
+                'es': '/es/', // Español
+                'en': '/en/'  // Inglés
+            };
+
+            // Extraer el código del idioma (ejemplo: "es" de "es-ES")
+            const langCode = userLang.split('-')[0];
+
+            // Verificar si el idioma está en el mapa; redirigir si es válido
+            if (languageMap[langCode]) {
+                window.location.href = languageMap[langCode];
+            } else {
+                // Redirigir a un idioma predeterminado si no está en el mapa
+                window.location.href = '/en/';
+            }
+        }
+
+        // Ejecutar la redirección al cargar la página
+        redirectBasedOnLanguage();
+    </script>
+</head>
+<body>
+    <!-- Mensaje opcional mientras redirige -->
+    <noscript>
+        Por favor, habilite JavaScript para usar esta página correctamente.
+    </noscript>
+</body>
+</html>
