@@ -68,10 +68,11 @@ background-color: #ffffff;
            }
 
 .div-header h1 {
-    font-size: 2.5rem; /* Tamaño del texto */
-    color: #333; /* Color del texto */
-    margin: 0; /* Quita márgenes adicionales */
-    flex: 1; /* Toma espacio restante si es necesario */
+ 
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
 }
 
 /* Estilo de la Imagen */
