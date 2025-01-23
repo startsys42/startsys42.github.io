@@ -33,6 +33,9 @@ background-color: #ffffff;
       list-style: none;
 }
 
+.nav-menu li{
+     display: flex;
+}
 
 .div-header{ display: flex; /* Activa Flexbox */
     align-items: center; /* Alinea verticalmente al centro */
