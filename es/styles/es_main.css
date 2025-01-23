@@ -22,7 +22,7 @@ header {
 
   
     z-index: 1000;
-    transition: transform 0.3s ease-in-out; /* Para el efecto de aparecer/desaparecer */
+    
 }
 
 .nav-menu{
@@ -38,7 +38,7 @@ background-color: #ffffff;
 }
 
 .nav-menu a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 5px 10px;
     display: block;
