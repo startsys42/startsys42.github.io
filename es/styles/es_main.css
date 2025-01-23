@@ -58,7 +58,7 @@ header {
     align-items: center; /* Centra los elementos horizontalmente */
     justify-content: center; /* Centra los elementos verticalmente */
     position: relative;
-    height: 90vh; /* Establece la altura máxima a la mitad de la altura de la pantalla */
+ 
     max-height: 1000px; /* Limita la altura de la imagen a 540px (mitad de Full HD) */
     width: 100%;
  margin-top: 60px;
@@ -76,7 +76,7 @@ header h1 {
     font-size: 36px;
     font-weight: bold;
    text-align: center; /* Centra el texto dentro del h1 */
-    left: 20px; /* Espacio desde el borde izquierdo */
+ 
     z-index: 1; /* Asegura que el texto quede por encima de la imagen */
   
 }
@@ -95,7 +95,7 @@ main{
     flex-direction: column;  /* Organiza los elementos en columna */
     justify-content: center; /* Centra los elementos verticalmente */
     align-items: center;     /* Centra los elementos horizontalmente */
-    height: 100vh;           /* Hace que el contenedor ocupe toda la altura de la pantalla */
+    width:70%;          /* Hace que el contenedor ocupe toda la altura de la pantalla */
     text-align: left;
 }
 
