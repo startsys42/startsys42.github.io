@@ -4,6 +4,11 @@ body {
     line-height: 1.6;
   background-color:#f6f4f0;
 }
+header {
+    position: relative; /* Necesario para posicionar el menú absoluto dentro */
+   
+}
+
 
 .nav-bar {
     position: absolute;
