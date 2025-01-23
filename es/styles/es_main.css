@@ -10,7 +10,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff;
+    
     color: black;
       border-radius: 0 0 15px 15px; /* Bordes redondeados solo abajo */
   
@@ -21,8 +21,8 @@ body {
 }
 
 .nav-menu{
-
-    background
+background-color: #ffffff;
+  
 }
 
 .nav-bar.hidden {
