@@ -105,3 +105,6 @@ main h1,p{
     width: 100%;             /* Para asegurarse de que el ancho es del 100% del contenedor */
 
 }
+main p  {
+     text-align: justify; 
+}
