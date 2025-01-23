@@ -19,7 +19,7 @@ header {
     color: black;
       border-radius: 0 0 15px 15px; /* Bordes redondeados solo abajo */
   
-    display:  flex;; /* El menú ocupa solo el espacio necesario */
+
   
     z-index: 1000;
     transition: transform 0.3s ease-in-out; /* Para el efecto de aparecer/desaparecer */
@@ -27,7 +27,7 @@ header {
 
 .nav-menu{
 background-color: #ffffff;
-     display: inline-block; /* El menú ocupa solo el espacio necesario */
+     display: flex; /* El menú ocupa solo el espacio necesario */
      margin: 0;
     padding: 0;
       list-style: none;
