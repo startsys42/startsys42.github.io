@@ -53,15 +53,14 @@ background-color: #ffffff;
     font-weight: bold;
 }
 header {
-   padding: 20px 40px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    align-items: center; /* Alinea el contenido verticalmente */
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    position: relative; /* Para que el h1 pueda posicionarse sobre la imagen en pantallas pequeñas */
+    height: 50vh; /* Establece la altura máxima a la mitad de la altura de la pantalla */
+    max-height: 540px; /* Limita la altura de la imagen a 540px (mitad de Full HD) */
+    width: 100%;
 }
-
 .div-header{ display: flex; /* Activa Flexbox */
     align-items: center; /* Alinea verticalmente al centro */
     justify-content: space-between; /* Espacia los elementos: texto a la izquierda, imagen a la derecha */
