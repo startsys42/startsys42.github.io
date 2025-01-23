@@ -54,9 +54,10 @@ background-color: #ffffff;
 }
 header {
     display: flex;
-    align-items: center; /* Alinea el contenido verticalmente */
-    justify-content: flex-start; /* Alinea los elementos a la izquierda */
-    position: relative; /* Para que el h1 pueda posicionarse sobre la imagen en pantallas pequeñas */
+  flex-direction: column; /* Organiza los elementos de arriba a abajo */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    position: relative;
     height: 90vh; /* Establece la altura máxima a la mitad de la altura de la pantalla */
     max-height: 1000px; /* Limita la altura de la imagen a 540px (mitad de Full HD) */
     width: 100%;
