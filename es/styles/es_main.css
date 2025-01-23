@@ -22,7 +22,7 @@ body {
    
     right: 10%;
    padding: 10px 20px;
-    
+    min-height: 50px;
     color: black;
       border-radius: 0 0 20px 20px; /* Bordes redondeados solo abajo */
   
@@ -35,10 +35,9 @@ body {
 .nav-menu{
 background-color: #ffffff;
      display: flex; /* El menú ocupa solo el espacio necesario */
-     margin: 0;
-    padding: 0;
+     
       list-style: none;
-     border-radius: 0 0 20px 20px;
+    
 }
 
 .nav-menu li{
