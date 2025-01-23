@@ -34,7 +34,7 @@ background-color: #ffffff;
 }
 
 .nav-menu li{
-     display: flex;
+     display: inline;
 }
 
 .nav-menu a {
