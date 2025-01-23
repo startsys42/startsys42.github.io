@@ -96,5 +96,12 @@ main{
     justify-content: center; /* Centra los elementos verticalmente */
     align-items: center;     /* Centra los elementos horizontalmente */
     height: 100vh;           /* Hace que el contenedor ocupe toda la altura de la pantalla */
-    text-align: center;
+    text-align: left;
+}
+
+main h1,p{
+
+    max-width: 800px;        /* Limita el ancho del h1 y p */
+    width: 100%;             /* Para asegurarse de que el ancho es del 100% del contenedor */
+
 }
