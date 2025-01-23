@@ -7,7 +7,8 @@ body {
 }
 header {
     position: relative; /* Necesario para posicionar el menú absoluto dentro */
-   
+   margin: 0;
+    padding: 0;
 }
 
 
