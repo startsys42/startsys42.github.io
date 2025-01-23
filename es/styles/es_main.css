@@ -88,3 +88,12 @@ header img {
    
     object-fit: cover; /* Asegura que la imagen cubra el área disponible sin distorsionarse */
 }
+
+main{
+     display: flex;
+    flex-direction: column;  /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center;     /* Centra los elementos horizontalmente */
+    height: 100vh;           /* Hace que el contenedor ocupe toda la altura de la pantalla */
+    text-align: center;
+}
