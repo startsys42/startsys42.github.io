@@ -15,7 +15,7 @@ body {
       border-radius: 0 0 15px 15px; /* Bordes redondeados solo abajo */
   
     display: inline-block; /* El menú ocupa solo el espacio necesario */
-    padding: 10px 0;
+  
     z-index: 1000;
     transition: transform 0.3s ease-in-out; /* Para el efecto de aparecer/desaparecer */
 }
