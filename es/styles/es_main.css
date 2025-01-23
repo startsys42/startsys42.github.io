@@ -37,3 +37,25 @@ background-color: #ffffff;
     justify-content: center;
     gap: 20px;
 }
+.div-header{ display: flex; /* Activa Flexbox */
+    align-items: center; /* Alinea verticalmente al centro */
+    justify-content: space-between; /* Espacia los elementos: texto a la izquierda, imagen a la derecha */
+    width: 80%; /* Ancho del contenedor */
+    max-width: 1200px; /* Máximo ancho del contenedor */
+    margin: auto; /* Centra horizontalmente */
+           }
+
+.div-header h1 {
+    font-size: 2.5rem; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    margin: 0; /* Quita márgenes adicionales */
+    flex: 1; /* Toma espacio restante si es necesario */
+}
+
+/* Estilo de la Imagen */
+.div-header img{
+    max-width: 40%; /* La imagen ocupa hasta el 40% del contenedor */
+    height: auto; /* Mantiene las proporciones originales */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra */
+}
