@@ -75,7 +75,7 @@ header h1 {
     color: black;
     font-size: 36px;
     font-weight: bold;
-    position: absolute; /* Esto permite que se posicione sobre la imagen en pantallas pequeñas */
+   text-align: center; /* Centra el texto dentro del h1 */
     left: 20px; /* Espacio desde el borde izquierdo */
     z-index: 1; /* Asegura que el texto quede por encima de la imagen */
   
