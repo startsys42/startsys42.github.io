@@ -125,9 +125,9 @@ main p  {
 }
 
 .div-wild{
-   
+   margin: 0 auto;
 margin-top: 60px;
-     max-width: 600px; /* Ancho máximo del div */
+     max-width: 900px; /* Ancho máximo del div */
             width: 100%; /* Asegura que se adapte al tamaño disponible */
    text-align: left;
 }
