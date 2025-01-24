@@ -105,7 +105,7 @@ main{
     flex-direction: column;  /* Organiza los elementos en columna */
     justify-content: center; /* Centra los elementos verticalmente */
     align-items: left;     /* Centra los elementos horizontalmente */
-    width:90%;          /* Hace que el contenedor ocupe toda la altura de la pantalla */
+    width:80%;          /* Hace que el contenedor ocupe toda la altura de la pantalla */
     text-align: left;
     margin: 0 auto;  
     padding-top: 50px;
