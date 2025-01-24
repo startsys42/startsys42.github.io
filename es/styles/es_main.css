@@ -140,6 +140,11 @@ list-style-type: disc; /* Usa puntos como decoración */
             margin: 20px;
 }
 
+.div-wild p{
+
+    text-align: justify; 
+}
+
 a{
 text-decoration: none;
 }
