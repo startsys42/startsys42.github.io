@@ -138,3 +138,7 @@ list-style-type: disc; /* Usa puntos como decoración */
             padding-left: 0; /* Elimina el espaciado predeterminado a la izquierda */
             margin: 20px;
 }
+
+a{
+text-decoration: none;
+}
