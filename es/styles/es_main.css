@@ -56,12 +56,10 @@ background-color: #ffffff;
 
 
 .nav-menu li:first-child {
-   border-radius: 0 0 20px 0; 
+   border-radius: 0 0 0 20px; 
 }
 
-.nav-menu li:last-child {
- border-radius: 0 0 0 20px; 
-}
+
 
 header {
     display: flex;
