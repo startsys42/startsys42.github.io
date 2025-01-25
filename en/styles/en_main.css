@@ -134,7 +134,7 @@ margin-top: 60px;
 
 list-style-type: disc; /* Usa puntos como decoración */
             list-style-position: inside; /* Alinea los puntos dentro del contenido */
-            padding-left: 0; /* Elimina el espaciado predeterminado a la izquierda */
+            padding-left: 20px; /* Elimina el espaciado predeterminado a la izquierda */
             margin: 20px;
 }
 
