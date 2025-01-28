@@ -112,7 +112,7 @@ main{
     
 }
 
-main h1,p{
+main h1,p,ul{
 
     max-width: 800px;        /* Limita el ancho del h1 y p */
     width: 100%;             /* Para asegurarse de que el ancho es del 100% del contenedor */
@@ -122,10 +122,7 @@ main p  {
      text-align: justify; 
 }
 
-main ul{
-    margin-left:0px;
-    padding-left:0px;
-}
+
 .div-primary{
    margin: 0 auto;
 margin-top: 60px;
