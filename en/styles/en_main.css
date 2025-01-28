@@ -122,6 +122,10 @@ main p  {
      text-align: justify; 
 }
 
+main ul{
+    margin-left:0px;
+    padding-left:0px;
+}
 .div-primary{
    margin: 0 auto;
 margin-top: 60px;
@@ -134,17 +138,13 @@ margin-top: 60px;
 
 list-style-type: disc; /* Usa puntos como decoración */
             list-style-position: inside; /* Alinea los puntos dentro del contenido */
-          
-}
-
-
-.div-primary p ul{ 
-
-list-style-type: disc; /* Usa puntos como decoración */
-            list-style-position: inside; /* Alinea los puntos dentro del contenido */
             padding-left: 20px; /* Elimina el espaciado predeterminado a la izquierda */
-            margin: 20px;
+            padding-top:8px;
+    padding-bottom:8px;
 }
+
+
+
 
 .div-primary p{
 
