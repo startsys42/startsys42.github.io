@@ -1,1 +1,165 @@
 
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+  
+  
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  background-color:#f6f4f0;
+padding-bottom:100px;
+}
+
+
+
+.nav-bar {
+ /*   position: absolute;*/
+    position: fixed;
+    top: 0;
+   background-color:white;
+    right: 10%;
+  
+    max-height: 40px;
+    color: black;
+      
+  
+margin-buttom:10px;
+  
+    z-index: 1000;
+    
+}
+
+.nav-menu{
+background-color: #ffffff;
+     display: flex; /* El menú ocupa solo el espacio necesario */
+     border-radius: 0 0 20px 20px; /* Bordes redondeados solo abajo */
+      list-style: none;
+    
+}
+
+.nav-menu li{
+     display: inline-block;
+     padding: 15px 15px;
+    
+}
+
+.nav-menu a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+    font-weight: bold;
+}
+
+
+.nav-menu li:first-child {
+   border-radius: 0 0 0 20px; 
+}
+
+
+
+header {
+    display: flex;
+  flex-direction: column; /* Organiza los elementos de arriba a abajo */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    position: relative;
+ 
+  
+    width: 100%;
+ margin-top: 60px;
+
+
+
+
+    padding-left: 20px; /* Espaciado izquierdo para el texto */
+    padding-right: 20px; /* Espaciado derecho para la imagen */
+    
+}
+header h1 {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+   text-align: center; /* Centra el texto dentro del h1 */
+ 
+    z-index: 1; /* Asegura que el texto quede por encima de la imagen */
+  
+}
+
+/* Estilo para la imagen */
+header img {
+    height: 100%; /* La imagen ocupa toda la altura del header, pero sin perder proporciones */
+    width: auto; /* Mantiene las proporciones de la imagen */
+     max-height: 700px; /* Limita la altura de la imagen a 540px (mitad de Full HD) */
+    object-fit: cover; /* Asegura que la imagen cubra el área disponible sin distorsionarse */
+     display: block;
+}
+
+main{
+     display: flex;
+    flex-direction: column;  /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center;     /* Centra los elementos horizontalmente */
+    width:60%;          /* Hace que el contenedor ocupe toda la altura de la pantalla */
+    text-align: left;
+    margin: 0 auto;  
+    padding-top: 50px;
+ 
+   
+    
+}
+
+main h1,p,ul{
+
+    max-width: 800px;        /* Limita el ancho del h1 y p */
+    width: 100%;             /* Para asegurarse de que el ancho es del 100% del contenedor */
+
+}
+
+main ul{
+    list-style-position: inside;
+}
+main p  {
+     text-align: justify; 
+}
+
+
+.div-primary{
+   margin: 0 auto;
+margin-top: 60px;
+     max-width: 900px; /* Ancho máximo del div */
+            width: 100%; /* Asegura que se adapte al tamaño disponible */
+   text-align: left;
+}
+
+.div-primary ul{ 
+
+list-style-type: disc; /* Usa puntos como decoración */
+            list-style-position: inside; /* Alinea los puntos dentro del contenido */
+            padding-left: 20px; /* Elimina el espaciado predeterminado a la izquierda */
+            padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 20px;
+}
+
+
+
+
+.div-primary p{
+
+    text-align: justify; 
+}
+
+a{
+text-decoration: none;
+}
+
+
+h1,h2,h3,h4,h5,h6,p{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
