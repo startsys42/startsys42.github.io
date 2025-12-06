@@ -7,3 +7,5 @@ indicar idioam en metas o que hay 2 versioens
 el idnex que redirige  influye pregunatr alc hat
  mirar redimensioanr imagenes
  mirar lod e los libros
+
+mirar lod e convertir a pdf libros
