@@ -1,42 +1,48 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- Idioma predeterminado como respaldo -->
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirección Automática</title>
-    <script>
-        // Función para detectar el idioma y redirigir
-        function redirectBasedOnLanguage() {
-            // Obtener el idioma principal del navegador
-            const userLang = navigator.language || navigator.userLanguage;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            // Definir redirecciones según el idioma
-            const languageMap = {
-               'es': 'es/index_es.html', // Español
-                'en': 'en/index_en.html'  // Inglés
-            };
+  <!-- Evitamos que Google indexe esta página puente -->
+  <meta name="robots" content="noindex, nofollow">
 
-            // Extraer el código del idioma (ejemplo: "es" de "es-ES")
-            const langCode = userLang.split('-')[0];
+  <title>Redirecting…</title>
 
-            // Verificar si el idioma está en el mapa; redirigir si es válido
-            if (languageMap[langCode]) {
-                window.location.href = languageMap[langCode];
-            } else {
-                // Redirigir a un idioma predeterminado si no está en el mapa
-                window.location.href = '/en/';
-            }
-        }
+  <!-- SEO multidioma -->
+  <link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/">
+  <link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/">
+  <link rel="alternate" hreflang="x-default" href="https://startsys42.github.io/">
 
-        // Ejecutar la redirección al cargar la página
-        redirectBasedOnLanguage();
-    </script>
+  <script>
+    // Detectamos el idioma del navegador
+    const userLang = navigator.language || navigator.userLanguage;
+    const lang = userLang.toLowerCase();
+
+    // Redirecciones
+    if (lang.startsWith("es")) {
+      window.location.href = "/es/";
+    } else {
+      window.location.href = "/en/";
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
-    <!-- Mensaje opcional mientras redirige -->
-    <noscript>
-        Por favor, habilite JavaScript para usar esta página correctamente.
-        Please enable JavaScript to use this page correctly.
-    </noscript>
+  <h1>Redirecting…</h1>
+  <p>If you are not redirected automatically, choose your language:</p>
+
+  <p>
+    <a href="/en/">English</a> |
+    <a href="/es/">Español</a>
+  </p>
 </body>
 </html>
