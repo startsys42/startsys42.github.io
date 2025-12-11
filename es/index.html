@@ -11,16 +11,36 @@
     
 </head>
 <body>
-     <nav class="nav-bar">
+     <nav class="nav-bar" aria-label="Navegación principal">
+            <div class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">&#9776;</div>
             <ul class="nav-menu">
                 
-                <li style="background-color: red;"><a style=" color: white;" href="index_es.html">Inicio</a></li>
-                <li><a href="wildevents_es.html">Wild Events</a></li>
-                <li><a href="rss_es.html">RSS</a></li>
-               <li><a href="wiki_es.html">Wiki</a></li>
-               <li><a href="rcl_es.html">RcL</a></li>
-                <li><a href="otros_es.html">Otros</a></li>
-                <li><a href="../en/index_en.html">Inglés</a></li>
+                <li class="active" style="background-color: red;"><a style=" color: white;" href="index.html">Inicio</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="rss.html">RSS y Preguntas</a></li>
+               <li><a href="wiki.html">Wiki y Notas</a></li>
+               <li><a href="Publicaciones.html">Publicaciones</a></li>
+                        <li><a href="arte.html">Arte</a></li>
+                    <li class="has-submenu">
+            <a href="#">Contenido ▼</a>
+            <ul class="submenu-items">
+                <li><a href="videojuegos.html">Videojuegos</a></li>
+                <li><a href="libros.html">Libros</a></li>
+                <li><a href="peliculas-y-series.html">Películas y Series</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+            </ul>
+        </li>
+                <li><a href="../en/index.html" hreflang="en">ES / EN</a></li>
+
+       
+        
+           
+       
+  
+                <li>
+                <button class="theme-btn" aria-label="Cambiar tema">🌙</button>
+            </li>
+               
                
             </ul>
      
