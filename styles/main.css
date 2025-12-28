@@ -74,6 +74,9 @@ background-color: #ffffff;
     padding-right: 20px; /* <--- Y ESTA TAMBIÉN */
   justify-content: flex-start;
     width: 100%;
+   flex-wrap: nowrap;
+    overflow-x: auto;
+  
 }
 
 .nav-menu li{
