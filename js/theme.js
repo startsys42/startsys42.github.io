@@ -3,6 +3,8 @@
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme) {
         document.documentElement.setAttribute("data-theme", savedTheme);
+        const select = document.getElementById("theme-select");
+        if (select) select.value = savedTheme;
     }
 })();
 
