@@ -13,7 +13,7 @@
   --nav: #1e1e1e;
 }
 
-[data-theme="sepia"] {
+[data-theme="pink"] {
   --bg: #f4ecd8;
   --text: #3b2f2f;
   --nav: #e6dcc5;
@@ -32,7 +32,7 @@ body {
   
     font-family: Arial, sans-serif;
     line-height: 1.6;
-  background-color:#f6f4f0;
+  background-color:var(--bg);
 padding-bottom:100px;
 }
 
