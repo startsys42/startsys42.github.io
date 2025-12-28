@@ -55,7 +55,7 @@ margin-bottom:10px;
     z-index: 1000;
 
 
-  
+    min-width: 50%; /* <--- OCUPA MÁS ANCHO */
 
 
 
