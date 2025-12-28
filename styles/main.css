@@ -137,8 +137,16 @@ color: var(--active-text);
     left: 0;
     background-color: var(--nav-bg);
     min-width: 200px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px;
     z-index: 1001;
+
+    padding: 5px 0; /* Menos padding */
+}
+
+/* Cambia el hover del submenú */
+.submenu-items li:hover {
+    background-color: var(--active-bd);
+  color: var(--active-text);
 }
 
 .has-submenu:hover .submenu-items {
@@ -295,7 +303,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1068px) {
  /* BOTÓN HAMBURGUESA IZQUIERDA */
     .nav-toggle {
         display: block;
