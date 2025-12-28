@@ -137,10 +137,10 @@ color: var(--active-text);
     left: 0;
     background-color: var(--nav-bg);
     width: auto;
-    box-shadow: 0 5px 15px;
+ 
     z-index: 1001;
 
-    padding: 5px 0; /* Menos padding */
+    padding: 0px 0; /* Menos padding */
 }
 
 /* Cambia el hover del submenú */
@@ -280,9 +280,9 @@ h1,h2,h3,h4,h5,h6,p{
     z-index: 1002;
     height: 40px;
     background: var(--nav-bg);
-    padding: 8px 15px;
+    padding: 0px 10px;
     border-radius: 0 0 20px 20px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
 }
 
 .top-controls a {
