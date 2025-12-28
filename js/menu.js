@@ -1,18 +1,26 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const toggle = document.querySelector(".nav-toggle");
-  const menu = document.querySelector(".nav-menu");
-
-  toggle.addEventListener("click", () => {
-    menu.classList.toggle("open");
-  });
-
-  // Submenú móvil
-  document.querySelectorAll(".has-submenu > a").forEach(link => {
-    link.addEventListener("click", e => {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-        link.parentElement.classList.toggle("open");
-      }
-    });
-  });
+document.addEventListener("DOMContentLoaded", function() {
+    const toggle = document.getElementById("nav-toggle");
+    const menu = document.querySelector(".nav-menu");
+    
+    if (toggle && menu) {
+        // 1. ABRIR/CERRAR MENÚ
+        toggle.addEventListener("click", function() {
+            menu.classList.toggle("open");
+            // Cambiar el icono
+            this.textContent = menu.classList.contains("open") ? "✕" : "☰";
+        });
+        
+        // 2. SUBMENÚS EN MÓVIL
+        const submenuLinks = document.querySelectorAll(".has-submenu > a");
+        submenuLinks.forEach(link => {
+            link.addEventListener("click", function(e) {
+                // Solo en móvil
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    const parent = this.parentElement;
+                    parent.classList.toggle("active");
+                }
+            });
+        });
+    }
 });
