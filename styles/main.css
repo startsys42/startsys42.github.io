@@ -107,9 +107,18 @@ background-color: #ffffff;
 
 .active{
 
-  
+  background-color: var(--active-bd);
   
 }
+
+
+
+.active a{
+
+color: var(--active-text);
+  
+}
+
 /* SUBMENÚ PARA DESKTOP */
 .has-submenu {
     position: relative;
