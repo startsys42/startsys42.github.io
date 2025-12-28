@@ -59,7 +59,7 @@ margin-bottom:10px;
 
 
 
-
+    border-radius: 0 0 20px 20px;
 
 
 
@@ -68,7 +68,7 @@ margin-bottom:10px;
 .nav-menu{
 background-color: #ffffff;
      display: flex; /* El menú ocupa solo el espacio necesario */
-     border-radius: 0 0 20px 20px; /* Bordes redondeados solo abajo */
+
       list-style: none;
 
     padding-right: 20px; /* <--- Y ESTA TAMBIÉN */
