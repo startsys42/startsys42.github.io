@@ -16,10 +16,10 @@
 }
 
 [data-theme="pink"] {
-  --bg: #ffc1d3;
-  --text: #3b2f2f;
-  --nav-bg: #e6dcc5;
-   --active-bd: red;
+  --bg: #ffe0e9;
+  --text: white;
+  --nav-bg: #ffc1d3;
+   --active-bd: ff0080;
   --active-text: white;
 }
 
