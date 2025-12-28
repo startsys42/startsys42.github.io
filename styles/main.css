@@ -92,7 +92,9 @@ background-color: #ffffff;
    border-radius: 0 0 0 20px; 
 }
 
-
+.nav-toggle {
+    display: none; /* OCULTO POR DEFECTO */
+}
 
 header {
     display: flex;
@@ -198,34 +200,57 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 @media (max-width: 768px) {
-  .nav-toggle {
-    display: block;
-  }
-
-  .nav-menu {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    flex-direction: column;
-    background-color: var(--nav-bg);
-    display: none; /* oculto hasta que se haga clic en hamburguesa */
-    border-radius: 0 0 10px 10px;
-  }
-
-  .nav-menu li {
-    padding: 15px;
-  }
-
-  /* Submenu móvil - solo al hacer clic */
-  .nav-menu .has-submenu .submenu-items {
-    position: static;
-    display: none;
-    flex-direction: column;
-    padding-left: 20px;
-  }
-
-  .nav-menu .has-submenu.active .submenu-items {
-    display: flex;
-  }
+ .nav-toggle {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: black;
+        cursor: pointer;
+        z-index: 1001;
+    }
+    
+    /* El resto de tu media query... */
+    .nav-menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: var(--nav-bg);
+        display: none; /* oculto hasta que se haga clic en hamburguesa */
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .nav-menu li {
+        padding: 15px;
+    }
+    
+    /* Submenu móvil - solo al hacer clic */
+    .nav-menu .has-submenu .submenu-items {
+        position: static;
+        display: none;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    
+    .nav-menu .has-submenu.active .submenu-items {
+        display: flex;
+    }
+    
+    /* Para el idioma y tema en horizontal en móvil */
+    .nav-menu .theme-selector {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        padding: 15px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    
+    .nav-menu a[href*="/en/"] {
+        margin-left: 0;
+    }
 }
