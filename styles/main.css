@@ -9,18 +9,18 @@
 
 [data-theme="dark"] {
   --bg: #121212;
-  --text: white;
+  --text: #fff;
   --nav-bg: #1e1e1e;
    --active-bd: #6b0499;
-  --active-text: white;
+  --active-text: #fff;
 }
 
 [data-theme="pink"] {
   --bg: #ffa0bd;
-  --text: white;
+  --text: #fff;
   --nav-bg: #ffc1d3;
    --active-bd: ff0080;
-  --active-text: white;
+  --active-text: #fff;
 }
 
 
