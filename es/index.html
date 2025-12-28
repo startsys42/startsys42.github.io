@@ -25,6 +25,15 @@
 <meta property="og:image" content="https://startsys42.github.io/assets/og-image.png">
 </head>
 <body>
+      <div class="top-controls">
+        <select id="theme-select" onchange="changeTheme()">
+            <option value="light">Claro</option>
+            <option value="dark">Oscuro</option>
+            <option value="pink">Rosa</option>
+        </select>
+        <a href="../en/index.html" hreflang="en">ES / EN</a>
+    </div>
+    
      <nav class="nav-bar" aria-label="Navegación principal">
             <div class="nav-header">
     <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">☰</button>
@@ -54,13 +63,6 @@
            
        
   
-              <li class="theme-selector">
-      <select id="theme-select"  onchange="changeTheme()">
-       <option value="light">Claro</option>
-<option value="dark">Oscuro</option>
-<option value="pink">Rosa</option>
-      </select>
-    </li>
                
                
             </ul>
