@@ -33,7 +33,7 @@
 
 body {
    padding-top: 50px !important; /* Añade espacio arriba */
-  
+  color: var(--text);
     font-family: Arial, sans-serif;
     line-height: 1.6;
   background-color:var(--bg);
