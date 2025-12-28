@@ -1,4 +1,26 @@
 
+:root {
+  --bg: #f6f4f0;
+  --text: black;
+  --nav-bg: #ffffff;
+  --active-bd: red;
+  --active-text: white;
+}
+
+[data-theme="dark"] {
+  --bg: #121212;
+  --text: #fff;
+  --nav: #1e1e1e;
+}
+
+[data-theme="sepia"] {
+  --bg: #f4ecd8;
+  --text: #3b2f2f;
+  --nav: #e6dcc5;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
