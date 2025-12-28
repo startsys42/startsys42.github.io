@@ -26,10 +26,12 @@
 </head>
 <body>
      <nav class="nav-bar" aria-label="Navegación principal">
-            <div class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">&#9776;</div>
+            <div class="nav-header">
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">☰</button>
+  </div>
             <ul class="nav-menu">
                 
-                <li class="active" style="background-color: red;"><a style=" color: white;" href="index.html">Inicio</a></li>
+                  <li class="active"><a href="index.html">Inicio</a></li>
                 <li><a href="eventos.html">Eventos</a></li>
                 <li><a href="rss.html">RSS y Preguntas</a></li>
                <li><a href="wiki.html">Wiki y Notas</a></li>
@@ -52,9 +54,13 @@
            
        
   
-                <li>
-                <button class="theme-btn" aria-label="Cambiar tema">🌙</button>
-            </li>
+              <li class="theme-selector">
+      <select id="theme-select">
+        <option value="light">🌞 Claro</option>
+        <option value="dark">🌙 Oscuro</option>
+        <option value="sepia">📜 Sepia</option>
+      </select>
+    </li>
                
                
             </ul>
@@ -75,7 +81,7 @@
 
 
 
-<p>Startsys42 es un proyecto interdisciplinario que explora l tecnología, arte y creatividad así como su unión.
+<p>Startsys42 es un proyecto interdisciplinario que explora  tecnología, arte y creatividad así como su unión.
 Su objetivo es investigar diferentes áreas tecnológicas, producir contenido audiovisual, desarrollar videojuegos y, en un futuro, organizar eventos y ofrecer servicios propios.</p>
 
  <h2>Áreas del proyecto</h2>
