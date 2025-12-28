@@ -28,7 +28,7 @@
 }
 
 body {
-  
+   padding-top: 70px !important; /* Añade espacio arriba */
   
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -43,7 +43,7 @@ padding-bottom:100px;
     position: fixed;
     top: 0;
    background-color:white;
-    right: 10%;
+    right: 5%;
   
     max-height: 40px;
     background-color: var(--nav-bg);
@@ -70,7 +70,8 @@ background-color: #ffffff;
      display: flex; /* El menú ocupa solo el espacio necesario */
      border-radius: 0 0 20px 20px; /* Bordes redondeados solo abajo */
       list-style: none;
-
+  justify-content: flex-end; /* <--- ESTA LÍNEA NUEVA */
+    padding-right: 20px; /* <--- Y ESTA TAMBIÉN */
 }
 
 .nav-menu li{
