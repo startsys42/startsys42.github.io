@@ -202,4 +202,31 @@ h1,h2,h3,h4,h5,h6,p{
   .nav-toggle {
     display: block;
   }
+
+  .nav-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--nav-bg);
+    display: none; /* oculto hasta que se haga clic en hamburguesa */
+    border-radius: 0 0 10px 10px;
+  }
+
+  .nav-menu li {
+    padding: 15px;
+  }
+
+  /* Submenu móvil - solo al hacer clic */
+  .nav-menu .has-submenu .submenu-items {
+    position: static;
+    display: none;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .nav-menu .has-submenu.active .submenu-items {
+    display: flex;
+  }
 }
