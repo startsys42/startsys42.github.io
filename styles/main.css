@@ -75,7 +75,7 @@ background-color: #ffffff;
 
 .nav-menu li{
      display: inline-block;
-     padding: 15px 15px;
+     padding: 10px 8px;
     
 }
 
@@ -95,6 +95,41 @@ background-color: #ffffff;
 .nav-toggle {
     display: none; /* OCULTO POR DEFECTO */
 }
+
+
+
+/* SUBMENÚ PARA DESKTOP */
+.has-submenu {
+    position: relative;
+}
+
+.has-submenu .submenu-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--nav-bg);
+    min-width: 200px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    z-index: 1001;
+}
+
+.has-submenu:hover .submenu-items {
+    display: block;
+}
+
+.submenu-items li {
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.submenu-items a {
+    padding: 10px 15px;
+    display: block;
+}
+
+
 
 header {
     display: flex;
