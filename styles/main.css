@@ -46,13 +46,24 @@ padding-bottom:100px;
     right: 10%;
   
     max-height: 40px;
+    background-color: var(--nav-bg);
     color: black;
       
   
 margin-buttom:10px;
   
     z-index: 1000;
-    
+
+
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+
+  width: 100%;
+
+  z-index: 1000;
 }
 
 .nav-menu{
@@ -60,7 +71,7 @@ background-color: #ffffff;
      display: flex; /* El menú ocupa solo el espacio necesario */
      border-radius: 0 0 20px 20px; /* Bordes redondeados solo abajo */
       list-style: none;
-    
+     gap: 15px;       /* separa cada <li> del siguiente 15px */
 }
 
 .nav-menu li{
@@ -184,4 +195,11 @@ text-decoration: none;
 h1,h2,h3,h4,h5,h6,p{
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
 }
