@@ -182,10 +182,10 @@ color: var(--active-text) !important;
 
 /* Cambia el hover del submenú */
 .submenu-items li:hover {
-  background-color: var(--active-bd);
+  background-color: var(--active-bd) !important;
 }
 .submenu-items li:hover a {
-  color: var(--active-text);
+  color: var(--active-text) !important;
 }
 
 .has-submenu:hover .submenu-items {
