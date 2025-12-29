@@ -181,8 +181,9 @@ color: var(--active-text);
 
 .submenu-items li {
     display: block;
-    padding: 0px 0px;
+    padding: 0px 5px;
     width: 100%;
+   align-items: center; 
 }
 
 .submenu-items a {
