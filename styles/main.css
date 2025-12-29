@@ -131,7 +131,10 @@ background-color: var(--nav-bg);
 .nav-menu > li:first-child {
    border-radius: 0 0 0 20px; 
 }
+.nav-menu > li:last-child {
+  border-radius: 0 0 20px 0;
 
+}
 .nav-menu > li:hover {
     background-color: var(--active-bd);
 
@@ -155,7 +158,7 @@ background-color: var(--nav-bg);
 
 .active a{
 
-color: var(--active-text);
+color: var(--active-text) !important;
   
 }
 
@@ -179,7 +182,9 @@ color: var(--active-text);
 
 /* Cambia el hover del submenú */
 .submenu-items li:hover {
-    background-color: var(--active-bd);
+  background-color: var(--active-bd);
+}
+.submenu-items li:hover a {
   color: var(--active-text);
 }
 
@@ -189,14 +194,16 @@ color: var(--active-text);
 
 .submenu-items li {
     display: block;
-    padding: 0px 5px;
+    padding: 0px;
     width: 100%;
    align-items: center; 
 }
 
 .submenu-items a {
-    padding: 0px 0px;
+    padding: 10px 10px;
     display: block;
+   color: var(--text) !important;
+  font-weight: bold;
 }
 
 
