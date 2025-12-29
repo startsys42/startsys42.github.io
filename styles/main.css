@@ -272,8 +272,12 @@ h1,h2,h3,h4,h5,h6,p{
     text-decoration: none;
     font-weight: bold;
     white-space: nowrap;
+   color: var(--text);
 }
-
+.top-controls a:hover {
+    color: var(--active-text);
+  background-color: var(--active-bd);
+}
 .top-controls select {
     padding: 5px 10px;
     border-radius: 5px;
@@ -338,8 +342,9 @@ h1,h2,h3,h4,h5,h6,p{
     /* SUBMENÚ EN MÓVIL */
     .nav-menu .has-submenu .submenu-items {
         display: none;
-        padding-left: 20px;
-        background-color: rgba(0,0,0,0.05);
+       padding-left: 0;
+    background-color: var(--nav-bg);
+    width: 100%;
     }
     
     .nav-menu .has-submenu.active .submenu-items {
