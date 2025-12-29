@@ -75,7 +75,7 @@ background-color: var(--nav-bg);
 
       list-style: none;
 
-    padding-right: 20px; /* <--- Y ESTA TAMBIÉN */
+ 
   justify-content: flex-start;
     width: 100%;
    flex-wrap: nowrap;
@@ -85,8 +85,8 @@ background-color: var(--nav-bg);
 
 .nav-menu li{
      display: inline-flex; /* Cambia a flex */
-    padding: 0;
-     margin: 0 5px;
+    margin: 0px;
+    padding: 0px 5px;
      align-items: center; /* Centra verticalmente */
      height: 40px; /* Mismo alto que la barra */
     
