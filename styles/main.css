@@ -40,7 +40,33 @@ body {
 padding-bottom:100px;
 }
 
+main{
+     display: flex;
+    flex-direction: column;  /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center;     /* Centra los elementos horizontalmente */
+    width:60%;          /* Hace que el contenedor ocupe toda la altura de la pantalla */
+    text-align: left;
+    margin: 0 auto;  
+    padding-top: 10px;
+ 
+   
+    
+}
 
+main *{
+
+    max-width: 800px;        /* Limita el ancho del h1 y p */
+    width: 100%;             /* Para asegurarse de que el ancho es del 100% del contenedor */
+
+}
+
+main ul{
+    list-style-position: inside;
+}
+main p  {
+     text-align: justify; 
+}
 
 .nav-bar {
  /*   position: absolute;*/
@@ -167,33 +193,7 @@ color: var(--active-text);
 
 
 
-main{
-     display: flex;
-    flex-direction: column;  /* Organiza los elementos en columna */
-    justify-content: center; /* Centra los elementos verticalmente */
-    align-items: center;     /* Centra los elementos horizontalmente */
-    width:60%;          /* Hace que el contenedor ocupe toda la altura de la pantalla */
-    text-align: left;
-    margin: 0 auto;  
-    padding-top: 10px;
- 
-   
-    
-}
 
-main *{
-
-    max-width: 800px;        /* Limita el ancho del h1 y p */
-    width: 100%;             /* Para asegurarse de que el ancho es del 100% del contenedor */
-
-}
-
-main ul{
-    list-style-position: inside;
-}
-main p  {
-     text-align: justify; 
-}
 
 
 .div-primary{
