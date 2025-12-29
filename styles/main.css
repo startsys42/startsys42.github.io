@@ -109,7 +109,7 @@ background-color: var(--nav-bg);
       border-radius: 0 0 20px 20px;
 }
 
-.nav-menu li{
+.nav-menu > li{
      display: inline-flex; /* Cambia a flex */
     margin: 0px;
     padding: 0px 5px;
@@ -128,9 +128,15 @@ background-color: var(--nav-bg);
 }
 
 
-.nav-menu li:first-child {
+.nav-menu > li:first-child {
    border-radius: 0 0 0 20px; 
 }
+
+.nav-menu > li:hover {
+    background-color: var(--active-bd);
+  color: var(--active-text);
+}
+
 
 .nav-toggle {
     display: none; /* OCULTO POR DEFECTO */
