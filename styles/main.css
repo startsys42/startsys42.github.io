@@ -304,9 +304,9 @@ h1,h2,h3,h4,h5,h6,p{
     gap: 5px;
     border-radius: 0 0 0 10px;
 }
-.theme-button> botton {
-   font: inherit;
-}
+
+ 
+
 .theme-button:hover {
     background-color: var(--active-bd);
     color: var(--active-text);
@@ -338,6 +338,7 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 12px 15px;
     background: var(--nav-bg);
     color: var(--text);
+    font: inherit;
     font-weight: bold;
     border: none;
     text-align: left;
