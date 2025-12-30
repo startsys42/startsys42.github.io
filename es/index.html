@@ -36,6 +36,16 @@
 </head>
 <body>
       <div class="top-controls">
+          <div class="theme-selector">
+    <button class="theme-button" id="theme-button">
+        Claro <span class="arrow">▼</span>
+    </button>
+    <div class="theme-options" id="theme-options">
+        <button data-theme="light">Claro</button>
+        <button data-theme="dark">Oscuro</button>
+        <button data-theme="pink">Rosa</button>
+    </div>
+</div>
         <select id="theme-select" onchange="changeTheme()">
             <option value="light">Claro</option>
             <option value="dark">Oscuro</option>
