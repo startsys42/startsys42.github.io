@@ -13,8 +13,6 @@ function changeTheme(theme = null) {
     
     // Actualizar el botón principal con el tema actual
     updateThemeButton(theme);
-    
-    // NO marcar opción activa en dropdown - TODOS IGUALES
 }
 
 // ===== ACTUALIZAR BOTÓN PRINCIPAL =====
