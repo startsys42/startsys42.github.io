@@ -31,22 +31,18 @@ function updateThemeButton(theme) {
     themeButton.innerHTML = `${themeName} <span class="arrow">▼</span>`;
 }
 
-// ===== MARCAR TEMA ACTIVO EN EL DROPDOWN =====
 function markActiveTheme(activeTheme) {
     const themeButtons = document.querySelectorAll('.theme-options button');
     
     themeButtons.forEach(button => {
         const buttonTheme = button.getAttribute('data-theme');
         
-        // Resetear todos los botones al color normal
-        button.style.background = 'var(--nav-bg)';
-        button.style.color = 'var(--text)';
-        button.style.fontWeight = 'bold';
+        // Quitar clase activa de todos
+        button.classList.remove('active-option');
         
-        // Marcar el tema activo con color diferente
+        // Añadir clase activa solo al botón correspondiente
         if (buttonTheme === activeTheme) {
-            button.style.background = 'var(--active-bd)';
-            button.style.color = 'var(--active-text)';
+            button.classList.add('active-option');
         }
     });
 }
