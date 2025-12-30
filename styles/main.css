@@ -89,7 +89,7 @@ margin-bottom:10px;
 
 
 
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 10px 10px;
 
 
 
@@ -106,7 +106,7 @@ background-color: var(--nav-bg);
     width: 100%;
    flex-wrap: nowrap;
 
-      border-radius: 0 0 15px 15px;
+      border-radius: 0 0 10px 10px;
 }
 
 .nav-menu > li{
@@ -129,10 +129,10 @@ background-color: var(--nav-bg);
 
 
 .nav-menu > li:first-child {
-   border-radius: 0 0 0 15px; 
+   border-radius: 0 0 0 10px; 
 }
 .nav-menu > li:last-child {
-  border-radius: 0 0 15px 0;
+  border-radius: 0 0 10px 0;
 
 }
 .nav-menu > li:hover {
@@ -261,14 +261,14 @@ h1,h2,h3,h4,h5,h6,p{
     height: 40px;
     background: var(--nav-bg);
     padding: 0px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 10px 10px;
 
 }
 
 .top-controls a {
    
     padding: 5px 12px;
-   border-radius:0 0 15px 0px;
+   border-radius:0 0 10px 0px;
     text-decoration: none;
     font-weight: bold;
     white-space: nowrap;
@@ -280,13 +280,27 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .top-controls select {
     padding: 5px 10px;
-    border-radius: 5px;
-    border: 1px;
+    border-radius: 0 0 0 10px;
+  cursor: pointer;
+    font-weight: bold;
     background: var(--nav-bg);
     color: var(--text);
 }
+.top-controls select:hover {
+    background-color: var(--active-bd);
+    color: var(--active-text);
+}
+.top-controls select option {
+    font-weight: bold;
+    background: var(--nav-bg);
+    color: var(--text);
+    padding: 8px;
+}
 
-
+.top-controls select option:hover {
+    background-color: var(--active-bd) !important;
+    color: var(--active-text) !important;
+}
 
 @media (max-width: 1068px) {
  /* BOTÓN HAMBURGUESA IZQUIERDA */
@@ -345,7 +359,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .top-controls {
     position: fixed;
-     
+       left: auto;
     right: 20px !important;
 }
     /* SUBMENÚ EN MÓVIL */
