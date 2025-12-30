@@ -281,32 +281,7 @@ h1,h2,h3,h4,h5,h6,p{
     color: var(--active-text);
   background-color: var(--active-bd);
 }
-.top-controls select {
-    padding: 0px 10px;
-    border-radius: 0 0 0 10px;
-  cursor: pointer;
-    font-weight: bold;
-    background: var(--nav-bg);
-    color: var(--text);
-  height: 100%; 
-    border: none;             /* AÑADIDO - quita el borde */
-    outline: none;   
-}
-.top-controls select:hover {
-    background-color: var(--active-bd);
-    color: var(--active-text);
-}
-.top-controls select option {
-    font-weight: bold;
-    background: var(--nav-bg);
-    color: var(--text);
-    padding: 8px;
-}
 
-.top-controls select option:hover {
-    background-color: var(--active-bd) !important;
-    color: var(--active-text) !important;
-}
 
 
 /* Selector de tema personalizado */
@@ -316,6 +291,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .theme-button {
+   font: inherit;
     height: 100%;
     padding: 0 15px;
     background: var(--nav-bg);
