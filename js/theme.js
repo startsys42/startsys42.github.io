@@ -14,8 +14,7 @@ function changeTheme(theme = null) {
     // Actualizar el botón principal con el tema actual
     updateThemeButton(theme);
     
-    // Marcar la opción activa en el dropdown
-    markActiveTheme(theme);
+    // NO marcar opción activa en dropdown - TODOS IGUALES
 }
 
 // ===== ACTUALIZAR BOTÓN PRINCIPAL =====
@@ -29,22 +28,6 @@ function updateThemeButton(theme) {
     
     // Actualizar texto del botón
     themeButton.innerHTML = `${themeName} <span class="arrow">▼</span>`;
-}
-
-function markActiveTheme(activeTheme) {
-    const themeButtons = document.querySelectorAll('.theme-options button');
-    
-    themeButtons.forEach(button => {
-        const buttonTheme = button.getAttribute('data-theme');
-        
-        // Quitar clase activa de todos
-        button.classList.remove('active-option');
-        
-        // Añadir clase activa solo al botón correspondiente
-        if (buttonTheme === activeTheme) {
-            button.classList.add('active-option');
-        }
-    });
 }
 
 // ===== DROPDOWN PERSONALIZADO =====
