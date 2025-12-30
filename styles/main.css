@@ -89,7 +89,7 @@ margin-bottom:10px;
 
 
 
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 15px 15px;
 
 
 
@@ -106,7 +106,7 @@ background-color: var(--nav-bg);
     width: 100%;
    flex-wrap: nowrap;
 
-      border-radius: 0 0 20px 20px;
+      border-radius: 0 0 15px 15px;
 }
 
 .nav-menu > li{
@@ -129,10 +129,10 @@ background-color: var(--nav-bg);
 
 
 .nav-menu > li:first-child {
-   border-radius: 0 0 0 20px; 
+   border-radius: 0 0 0 15px; 
 }
 .nav-menu > li:last-child {
-  border-radius: 0 0 20px 0;
+  border-radius: 0 0 15px 0;
 
 }
 .nav-menu > li:hover {
@@ -261,7 +261,7 @@ h1,h2,h3,h4,h5,h6,p{
     height: 40px;
     background: var(--nav-bg);
     padding: 0px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 15px 15px;
 
 }
 
