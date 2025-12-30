@@ -255,7 +255,7 @@ h1,h2,h3,h4,h5,h6,p{
     top: 0px;
     left: 20px;
     display: flex;
-    gap: 5px;
+   
     align-items: center;
     z-index: 1002;
     height: 40px;
@@ -268,7 +268,7 @@ h1,h2,h3,h4,h5,h6,p{
 .top-controls a {
    
     padding: 5px 12px;
-   
+   border-radius:0 0 15px 0px;
     text-decoration: none;
     font-weight: bold;
     white-space: nowrap;
@@ -346,7 +346,7 @@ h1,h2,h3,h4,h5,h6,p{
 .top-controls {
     position: fixed;
      
-    right: 20px;
+    right: 20px !important;
 }
     /* SUBMENÚ EN MÓVIL */
     .nav-menu .has-submenu .submenu-items {
