@@ -273,6 +273,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: bold;
     white-space: nowrap;
    color: var(--text);
+  height: 100%; 
 }
 .top-controls a:hover {
     color: var(--active-text);
@@ -285,6 +286,9 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: bold;
     background: var(--nav-bg);
     color: var(--text);
+  height: 100%; 
+    border: none;             /* AÑADIDO - quita el borde */
+    outline: none;   
 }
 .top-controls select:hover {
     background-color: var(--active-bd);
