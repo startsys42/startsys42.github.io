@@ -321,13 +321,13 @@ h1,h2,h3,h4,h5,h6,p{
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: var(--nav-bg);
+    background-color: var(--nav-bg)  !important;
      color: var(--text)  !important;
     width: 100%;
     z-index: 1003;
     border-radius: 0 0 10px 10px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+   /* box-shadow: 0 5px 15px rgba(0,0,0,0.2); */
 }
 
 .theme-options.show {
@@ -345,7 +345,7 @@ h1,h2,h3,h4,h5,h6,p{
     border: none;
     text-align: left;
     cursor: pointer;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+
 }
 
 .theme-options button:hover {
