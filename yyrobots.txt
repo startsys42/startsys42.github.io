@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /private/
 Allow: /
-Sitemap: https://startsys42.github.io/sitemap.xml
+Sitemap: https://startsys42.github.io/es/sitemap_es.xml
+Sitemap: https://startsys42.github.io/en/sitemap_en.xml
