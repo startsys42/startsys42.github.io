@@ -1,6 +1,4 @@
-
 User-agent: *
 Disallow: /private/
 Allow: /
-Disallow: /index.html
 Sitemap: https://startsys42.github.io/sitemap.xml
