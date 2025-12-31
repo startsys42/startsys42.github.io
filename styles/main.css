@@ -147,19 +147,7 @@ background-color: var(--nav-bg);
 }
 
 
-.active{
 
-  background-color: var(--active-bd);
-  
-}
-
-
-
-.active a{
-
-color: var(--active-text) !important;
-  
-}
 
 /* SUBMENÚ PARA DESKTOP */
 .has-submenu {
@@ -208,7 +196,19 @@ color: var(--active-text) !important;
 
 
 
+.active{
 
+  background-color: var(--active-bd);
+  
+}
+
+
+
+.active a{
+
+color: var(--active-text) !important;
+  
+}
 
 
 .div-primary{
