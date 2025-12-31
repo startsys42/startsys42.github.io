@@ -348,7 +348,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .theme-options button:hover {
     background-color: var(--active-bd) !important;
-    color: var(--active-text);
+    color: var(--active-text) !important;
 }
 
 .theme-options button:last-child {
