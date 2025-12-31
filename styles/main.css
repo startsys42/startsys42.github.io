@@ -7,22 +7,21 @@
   --active-text: white;
 }
 
-[data-theme="dark"] {
+:root[data-theme="dark"] {
   --bg: #121212;
   --text: #fff;
   --nav-bg: #373737;
-   --active-bd: #6b0499;
+  --active-bd: #6b0499;
   --active-text: #fff;
 }
 
-[data-theme="pink"] {
+:root[data-theme="pink"] {
   --bg: #ff7ea8;
   --text: #fff;
   --nav-bg: #86d9e6;
-   --active-bd: #ff0080;
+  --active-bd: #ff0080;
   --active-text: #fff;
 }
-
 
 
 * {
