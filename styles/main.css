@@ -204,7 +204,7 @@ background-color: var(--nav-bg);
 
 
 
-.active a{
+.active >a{
 
 color: var(--active-text) !important;
   
