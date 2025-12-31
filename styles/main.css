@@ -321,7 +321,7 @@ h1,h2,h3,h4,h5,h6,p{
     position: absolute;
     top: 100%;
     left: 0;
-    background: var(--nav-bg);
+    background-color: var(--nav-bg);
     width: 100%;
     z-index: 1003;
     border-radius: 0 0 10px 10px;
@@ -336,7 +336,7 @@ h1,h2,h3,h4,h5,h6,p{
 .theme-options button {
     width: 100%;
     padding: 12px 15px;
-    background: var(--nav-bg)  !important;
+    background-color: var(--nav-bg)  !important;
     color: var(--text)  !important;
     font: inherit;
     font-weight: bold;
@@ -347,7 +347,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .theme-options button:hover {
-    background-color: var(--active-bd);
+    background-color: var(--active-bd) !important;
     color: var(--active-text);
 }
 
