@@ -11,32 +11,26 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // ===== 2. SUBMENÚS EN MÓVIL =====
-    submenuLinks.forEach(link => {
-        link.addEventListener("click", function (e) {
-            if (window.innerWidth <= 1068) {
-                e.preventDefault();
-                const parent = this.parentElement;
-                parent.classList.toggle("active");
-            }
-        });
-    });
-
-    // ===== 3. RESET AL CAMBIAR A DESKTOP =====
-    function resetMenuOnResize() {
-        if (window.innerWidth > 1068) {
-            // Cierra menú móvil
-            menu.classList.remove("open");
-
-            // Resetea submenús
-            document.querySelectorAll(".has-submenu")
-                .forEach(item => item.classList.remove("active"));
-
-            // Restaura icono hamburguesa
-            if (toggle) toggle.textContent = "☰";
+// ===== 2. SUBMENÚS EN MÓVIL =====
+submenuLinks.forEach(link => {
+    link.addEventListener("click", function (e) {
+        if (window.innerWidth <= 1068) {
+            e.preventDefault();
+            const parent = this.parentElement;
+            parent.classList.toggle("open"); // usar open en vez de active
         }
-    }
+    });
+});
 
+// ===== 3. RESET AL CAMBIAR A DESKTOP =====
+function resetMenuOnResize() {
+    if (window.innerWidth > 1068) {
+        menu.classList.remove("open");
+        document.querySelectorAll(".has-submenu")
+            .forEach(item => item.classList.remove("open")); // solo quitar open
+        if (toggle) toggle.textContent = "☰";
+    }
+}
     // Ejecutar al redimensionar
     window.addEventListener("resize", resetMenuOnResize);
 
