@@ -294,7 +294,7 @@ h1,h2,h3,h4,h5,h6,p{
    font: inherit;
     height: 100%;
     padding: 0 15px;
-    background: var(--nav-bg);
+    background-color: var(--nav-bg);
     color: var(--text);
     font-weight: bold;
     border: none;
