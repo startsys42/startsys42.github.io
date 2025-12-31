@@ -9,12 +9,15 @@ function changeTheme(theme = null) {
 // ===== ACTUALIZAR BOTÓN PRINCIPAL =====
 function updateThemeButton(theme) {
     const themeButton = document.getElementById('theme-button');
-    let themeName = 'Claro';
-    if (theme === 'dark') themeName = 'Oscuro';
-    if (theme === 'pink') themeName = 'Rosa';
+    const isSpanish = document.documentElement.lang === 'es' || 
+                     window.location.pathname.includes('/es/');
+    
+    let themeName = isSpanish ? 'Claro' : 'Light';
+    if (theme === 'dark') themeName = isSpanish ? 'Oscuro' : 'Dark';
+    if (theme === 'pink') themeName = isSpanish ? 'Rosa' : 'Pink';
+    
     themeButton.innerHTML = `${themeName} <span class="arrow">▼</span>`;
 }
-
 // ===== MARCAR TEMA ACTIVO (SOLO con clases, SIN estilos en línea) =====
 function markActiveTheme(activeTheme) {
     const themeButtons = document.querySelectorAll('.theme-options button');
