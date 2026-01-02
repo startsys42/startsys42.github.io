@@ -1,1 +1,42 @@
 
+{% assign current = include.current_url %}
+<ul class="nav-menu">
+    <li{% if current == '/es/index.html' or current == '/es/' %} class="active"{% endif %}>
+        <a href="/es/index.html" title="Página de inicio de Startsys42">Inicio</a>
+    </li>
+    <li{% if current contains 'eventos' %} class="active"{% endif %}>
+        <a href="/es/eventos.html" title="Eventos tecnológicos y creativos">Eventos</a>
+    </li>
+    <li{% if current contains 'rss' %} class="active"{% endif %}>
+        <a href="/es/rss.html" title="Fuentes RSS y preguntas">RSS y Preguntas</a>
+    </li>
+    <li{% if current contains 'wiki' %} class="active"{% endif %}>
+        <a href="/es/wiki.html" title="Wiki y notas">Wiki y Notas</a>
+    </li>
+    <li{% if current contains 'publicaciones' %} class="active"{% endif %}>
+        <a href="/es/publicaciones.html" title="Publicaciones">Publicaciones</a>
+    </li>
+    <li{% if current contains 'arte' %} class="active"{% endif %}>
+        <a href="/es/arte.html" title="Portafolio de arte">Arte</a>
+    </li>
+    <li class="has-submenu">
+        <a role="button" aria-haspopup="true" title="Explorar categorías">Contenido ▼</a>
+        <ul class="submenu-items" aria-label="Categorías de contenido">
+            <li{% if current contains 'videojuegos' %} class="active"{% endif %}>
+                <a href="/es/videojuegos.html" title="Videojuegos">Videojuegos</a>
+            </li>
+            <li{% if current contains 'libros' %} class="active"{% endif %}>
+                <a href="/es/libros.html" title="Libros">Libros</a>
+            </li>
+            <li{% if current contains 'peliculas-y-series' %} class="active"{% endif %}>
+                <a href="/es/peliculas-y-series.html" title="Películas y series">Películas y Series</a>
+            </li>
+            <li{% if current contains 'recetas' %} class="active"{% endif %}>
+                <a href="/es/recetas.html" title="Recetas">Recetas</a>
+            </li>
+            <li{% if current contains 'diario' %} class="active"{% endif %}>
+                <a href="/es/diario.html" title="Diario">Diario</a>
+            </li>
+        </ul>
+    </li>
+</ul>
