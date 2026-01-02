@@ -21,4 +21,10 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/diario.html"/>
   </url>
 
+  <url>
+    <loc>https://startsys42.github.io/en/books.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/libros.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/books.html"/>
+  </url>
+
 </urlset>
