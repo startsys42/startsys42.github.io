@@ -77,7 +77,11 @@
             </div>
         </div>
         
-        <a href="../en/index.html" hreflang="en">ES / EN</a>
+       {% if page.lang == 'es' %}
+    <a href="../en/{{ page.english_slug }}.html" hreflang="en">ES / EN</a>
+{% else %}
+    <a href="../es/{{ page.spanish_slug }}.html" hreflang="es">EN / ES</a>
+{% endif %}
     </div>
     
      <nav class="nav-bar" aria-label="Navegación principal">
