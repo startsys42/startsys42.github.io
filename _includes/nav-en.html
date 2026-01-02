@@ -1,0 +1,41 @@
+{% assign current = include.current_url %}
+<ul class="nav-menu">
+    <li{% if current == '/en/index.html' or current == '/en/' %} class="active"{% endif %}>
+        <a href="/en/index.html" title="Startsys42 homepage">Home</a>
+    </li>
+    <li{% if current contains 'events' %} class="active"{% endif %}>
+        <a href="/en/events.html" title="Technological events">Events</a>
+    </li>
+    <li{% if current contains 'rss' %} class="active"{% endif %}>
+        <a href="/en/rss.html" title="RSS and FAQs">RSS & Questions</a>
+    </li>
+    <li{% if current contains 'wiki' %} class="active"{% endif %}>
+        <a href="/en/wiki.html" title="Wiki and notes">Wiki & Notes</a>
+    </li>
+    <li{% if current contains 'publications' %} class="active"{% endif %}>
+        <a href="/en/publications.html" title="Publications">Publications</a>
+    </li>
+    <li{% if current contains 'art' %} class="active"{% endif %}>
+        <a href="/en/art.html" title="Art portfolio">Art</a>
+    </li>
+    <li class="has-submenu">
+        <a role="button" aria-haspopup="true" title="Explore content">Content ▼</a>
+        <ul class="submenu-items" aria-label="Content categories">
+            <li{% if current contains 'videogames' %} class="active"{% endif %}>
+                <a href="/en/videogames.html" title="Video games">Video Games</a>
+            </li>
+            <li{% if current contains 'books' %} class="active"{% endif %}>
+                <a href="/en/books.html" title="Books">Books</a>
+            </li>
+            <li{% if current contains 'movies-and-series' %} class="active"{% endif %}>
+                <a href="/en/movies-and-series.html" title="Movies and series">Movies & Series</a>
+            </li>
+            <li{% if current contains 'recipes' %} class="active"{% endif %}>
+                <a href="/en/recipes.html" title="Recipes">Recipes</a>
+            </li>
+            <li{% if current contains 'diary' %} class="active"{% endif %}>
+                <a href="/en/diary.html" title="Diary">Diary</a>
+            </li>
+        </ul>
+    </li>
+</ul>
