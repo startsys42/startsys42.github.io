@@ -83,11 +83,20 @@
     <a href="../es/{{ page.hreflang_es  }}.html" hreflang="es">EN / ES</a>
 {% endif %}
     </div>
-    
-     <nav class="nav-bar" aria-label="Navegación principal">
-            <div class="nav-header">
-    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">☰</button>
-  </div>
+      <!-- Nav MULTIDIOMA -->
+    <nav class="nav-bar" aria-label="{% if page.lang == 'en' %}Main navigation{% else %}Navegación principal{% endif %}">
+        <div class="nav-header">
+            <button class="nav-toggle" id="nav-toggle" aria-label="{% if page.lang == 'en' %}Toggle menu{% else %}Alternar menú{% endif %}">☰</button>
+        </div>
+
+        <!-- Menú según idioma -->
+        {% if page.lang == 'en' %}
+            {% include nav-en.html current_url=page.url %}
+        {% else %}
+            {% include nav-es.html current_url=page.url %}
+        {% endif %}
+    </nav>
+ 
 
 
          <ul class="nav-menu">
