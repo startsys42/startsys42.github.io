@@ -59,17 +59,23 @@
 </script>
 </head>
 <body>
-    <div class="top-controls">
-          <div class="theme-selector">
-    <button class="theme-button" id="theme-button">
-        Claro <span class="arrow">▼</span>
-    </button>
-    <div class="theme-options" id="theme-options">
-        <button data-theme="light">Claro</button>
-        <button data-theme="dark">Oscuro</button>
-        <button data-theme="pink">Rosa</button>
-    </div>
-</div>
+ <div class="top-controls">
+        <div class="theme-selector">
+            <button class="theme-button" id="theme-button">
+                {% if page.lang == 'en' %}Light{% else %}Claro{% endif %} <span class="arrow">▼</span>
+            </button>
+            <div class="theme-options" id="theme-options">
+                {% if page.lang == 'en' %}
+                    <button data-theme="light">Light</button>
+                    <button data-theme="dark">Dark</button>
+                    <button data-theme="pink">Pink</button>
+                {% else %}
+                    <button data-theme="light">Claro</button>
+                    <button data-theme="dark">Oscuro</button>
+                    <button data-theme="pink">Rosa</button>
+                {% endif %}
+            </div>
+        </div>
         
         <a href="../en/index.html" hreflang="en">ES / EN</a>
     </div>
@@ -111,7 +117,10 @@
 
          
     <main>
-    {{ content }}  <!-- Aquí va el contenido único de cada página -->
+    {% if content %}
+            {{ content }}
+     
+        {% endif %}
     </main>
      <script src="../js/theme.js"></script>
     <script src="../js/menu.js"></script>
