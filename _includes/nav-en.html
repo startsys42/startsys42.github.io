@@ -1,41 +1,50 @@
 {% assign current = include.current_url %}
+{% assign has_active_subitem = false %}
+
+{% comment %} First check if any subitem is active {% endcomment %}
+{% if current contains 'videogames' or current contains 'books' or current contains 'movies-and-series' or current contains 'recipes' or current contains 'diary' %}
+    {% assign has_active_subitem = true %}
+{% endif %}
 <ul class="nav-menu">
     <li{% if current == '/en/index.html' or current == '/en/' %} class="active"{% endif %}>
-        <a href="/en/index.html" title="Startsys42 Home Page">Home</a>
+        <a href="/en/index.html" title="Startsys42 Home - Main Page">Home</a>
     </li>
     <li{% if current contains 'events' %} class="active"{% endif %}>
-        <a href="/en/events.html" title="Startsys42's technology, gaming, sports, and creative events">Events</a>
+        <a href="/en/events.html" title="Events Startsys42 - Robotics competitions, videogame tournaments, interactive contests, challenges and puzzles">Events</a>
     </li>
     <li{% if current contains 'rss' %} class="active"{% endif %}>
-        <a href="/en/rrss.html" title="RSS feeds and FAQs">RSS & FAQs</a>
+       <a href="/en/rrss.html" title="Social Media Startsys42 - Social networks and frequently asked questions">Social Media & FAQs</a>
     </li>
     <li{% if current contains 'wiki' %} class="active"{% endif %}>
-        <a href="/en/wiki.html" title="Wiki and notes">Wiki & Notes</a>
+        <a href="/en/wiki.html" title="Wiki Startsys42 - Study notes and documentation">Wiki & Notes</a>
     </li>
     <li{% if current contains 'publications' %} class="active"{% endif %}>
-        <a href="/en/publications.html" title="Publications">Publications</a>
+        <a href="/en/publications.html" title="Publications Startsys42 - Articles, Books and Documents">Publications</a>
     </li>
     <li{% if current contains 'art' %} class="active"{% endif %}>
-        <a href="/en/art.html" title="Art portfolio">Art</a>
+        <a href="/en/art.html" title="Art Startsys42 - Personal portfolio: paintings, sculptures, videogames, books and creative projects">Art</a>
     </li>
-    <li class="has-submenu">
-        <a role="button" aria-haspopup="true" title="Explore content">Content ▼</a>
+    <li class="has-submenu{% if has_active_subitem %} active{% endif %}">
+        <a role="button" aria-haspopup="true" title="Content Startsys42 - Explore Categories">Content ▼</a>
         <ul class="submenu-items" aria-label="Content categories">
             <li{% if current contains 'videogames' %} class="active"{% endif %}>
-                <a href="/en/videogames.html" title="Video games">Video Games</a>
+                <a href="/en/videogames.html" title="Videogames Startsys42 - Analysis and Reviews">Videogames</a>
             </li>
             <li{% if current contains 'books' %} class="active"{% endif %}>
-                <a href="/en/books.html" title="Books">Books</a>
+                <a href="/en/books.html" title="Books Startsys42 - Literary Reviews">Books</a>
             </li>
             <li{% if current contains 'movies-and-series' %} class="active"{% endif %}>
-                <a href="/en/movies-and-series.html" title="Movies and series">Movies & Series</a>
+                <a href="/en/movies-and-series.html" title="Movies and Series Startsys42 - Cinematographic analysis and reviews">Movies & Series</a>
             </li>
             <li{% if current contains 'recipes' %} class="active"{% endif %}>
-                <a href="/en/recipes.html" title="Recipes">Recipes</a>
+                <a href="/en/recipes.html" title="Recipes Startsys42 - Creative cooking and gastronomic experimentation">Recipes</a>
             </li>
             <li{% if current contains 'diary' %} class="active"{% endif %}>
-                <a href="/en/diary.html" title="Diary">Diary</a>
+                <a href="/en/diary.html" title="Diary Startsys42 - Personal log, experiences, travels and project roadmap">Diary</a>
             </li>
         </ul>
     </li>
 </ul>
+
+
+
