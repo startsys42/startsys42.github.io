@@ -77,10 +77,10 @@
             </div>
         </div>
         
-       {% if page.lang == 'es' %}
-    <a href="../en/{{ page.hreflang_en  }}.html" hreflang="en">ES / EN</a>
+    {% if page.lang == 'es' %}
+    <a href="{{ page.hreflang_en }}" hreflang="en">ES / EN</a>
 {% else %}
-    <a href="../es/{{ page.hreflang_es  }}.html" hreflang="es">EN / ES</a>
+    <a href="{{ page.hreflang_es }}" hreflang="es">EN / ES</a>
 {% endif %}
     </div>
       <!-- Nav MULTIDIOMA -->
