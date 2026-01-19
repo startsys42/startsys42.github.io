@@ -1,1 +1,6 @@
-
+- nucelos vs gnu linux
+- instalacion
+- paquetes
+- entornoe scritorio
+- bash
+- licencias, ...
