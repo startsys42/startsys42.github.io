@@ -27,5 +27,51 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/books.html"/>
   </url>
 
-        
-</urlset>
+
+
+
+
+  <url>
+    <loc>https://startsys42.github.io/es/eventos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/eventos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/events.html"/>
+  </url>
+
+  <url>
+    <loc>https://startsys42.github.io/es/rrss.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/rrss.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/rrss.html"/>
+  </url>
+
+  <url>
+    <loc>https://startsys42.github.io/es/wiki.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/wiki.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/wiki.html"/>
+  </url>
+
+  <url>
+    <loc>https://startsys42.github.io/es/publicaciones.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/publicaciones.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/publications.html"/>
+  </url>
+
+  <url>
+    <loc>https://startsys42.github.io/es/videojuegos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/videojuegos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/videogames.html"/>
+  </url>
+
+  <url>
+    <loc>https://startsys42.github.io/es/peliculas-y-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/peliculas-y-series.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/movies-and-series.html"/>
+  </url>
+
+  <url>
+    <loc>https://startsys42.github.io/es/recetas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/recetas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/recipes.html"/>
+  </url>
+
+</urlset>   
+
