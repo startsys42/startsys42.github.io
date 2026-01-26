@@ -1,8 +1,28 @@
 
+falta:
+
 eventos
 redes sociales
 preguntas y respuestas.
 wiki
+
+
+inso,
+redes
+linux,
+videojeugos
+arte,
+ingles...
+
+
+criptografia
+esteganografi
+casos
+diseño programa
+proyecto z
+otros ramas investigacion
+
+
 ---
 favicon no influye en seo
 fuenets atmpoco epro que carguen rapido
