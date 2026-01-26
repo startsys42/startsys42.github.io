@@ -1,3 +1,9 @@
+
+eventos
+redes sociales
+preguntas y respuestas.
+wiki
+---
 favicon no influye en seo
 fuenets atmpoco epro que carguen rapido
 nombre d erachivos html si
