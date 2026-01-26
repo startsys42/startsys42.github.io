@@ -1,22 +1,3 @@
-  <url>
-    <loc>https://startsys42.github.io/en/art.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/art.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/arte.html"/>
-  </url>
-
-  <url>
-    <loc>https://startsys42.github.io/en/diary.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/diary.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/diario.html"/>
-  </url>
-
-  <url>
-    <loc>https://startsys42.github.io/en/books.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/libros.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/books.html"/>
-  </url>
-
-</urlset>
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -24,69 +5,69 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://startsys42.github.io/en/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/"/>
+    <loc>https://blog.startsys42.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/art.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/art.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/arte.html"/>
+    <loc>https://blog.startsys42.com/en/art/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/art/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/arte/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/diary.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/diary.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/diario.html"/>
+    <loc>https://blog.startsys42.com/en/diary/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/diary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/diario/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/books.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/books.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/libros.html"/>
+    <loc>https://blog.startsys42.com/en/books/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/books/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/libros/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/events.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/events.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/eventos.html"/>
+    <loc>https://blog.startsys42.com/en/events/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/events/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/eventos/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/rrss.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/rrss.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/rrss.html"/>
+    <loc>https://blog.startsys42.com/en/rrss/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/rrss/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/rrss/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/wiki.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/wiki.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/wiki.html"/>
+    <loc>https://blog.startsys42.com/en/wiki/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/wiki/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/wiki/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/publications.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/publications.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/publicaciones.html"/>
+    <loc>https://blog.startsys42.com/en/publications/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/publications/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/publicaciones/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/videogames.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/videogames.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/videojuegos.html"/>
+    <loc>https://blog.startsys42.com/en/videogames/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/videogames/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/videojuegos/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/movies-and-series.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/movies-and-series.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/peliculas-y-series.html"/>
+    <loc>https://blog.startsys42.com/en/movies-and-series/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/movies-and-series/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/peliculas-y-series/"/>
   </url>
 
   <url>
-    <loc>https://startsys42.github.io/en/recipes.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://startsys42.github.io/en/recipes.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://startsys42.github.io/es/recetas.html"/>
+    <loc>https://blog.startsys42.com/en/recipes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.startsys42.com/en/recipes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blog.startsys42.com/es/recetas/"/>
   </url>
 
 </urlset>
