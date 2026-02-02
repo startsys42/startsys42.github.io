@@ -360,10 +360,12 @@ h1,h2,h3,h4,h5,h6,p{
 
 .ul-wiki ul{
   margin-left: 20px;
+   color: var(--text);
 }
 
 .ul-wiki a{
   text-decoration: none; 
+   color: var(--text);
 }
 
 .ul-wiki a:hover{
