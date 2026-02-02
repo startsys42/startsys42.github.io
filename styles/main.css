@@ -358,7 +358,17 @@ h1,h2,h3,h4,h5,h6,p{
     border-bottom: none;
 }
 
+.ul-wiki ul{
+  margin-left: 20px;
+}
 
+.ul-wiki a{
+  text-decoration: none; 
+}
+
+.ul-wiki a:hover{
+  text-decoration: underline;
+}
 
 @media (max-width: 1068px) {
  /* BOTÓN HAMBURGUESA IZQUIERDA */
