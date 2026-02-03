@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+
+    <meta name="description" content="{{ page.description }}">
+
+
+ <link rel="alternate" hreflang="es" href="{{ page.hreflang_es }}">
+    <link rel="alternate" hreflang="en" href="{{ page.hreflang_en }}">
+
+    
+    <!-- Canonical de esta página -->
+    <link rel="canonical" href="{% if page.lang == 'es' %}{{ page.hreflang_es }}{% else %}{{ page.hreflang_en }}{% endif %}">
+    
+
+      <link rel="stylesheet" href="/styles/main.css">
+  
+    
+       <!-- 1. El básico para todos -->
+    <link rel="icon" href="/images/favicon.ico">
+    
+    <!-- 2. PNGs para navegadores modernos -->
+    <link rel="icon" href="/images/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/images/favicon-16x16.png" type="image/png" sizes="16x16">
+    
+    <!-- 3. Para iPhones/iPads -->
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    
+    <!-- 4. Para Android (CON EL MANIFEST) -->
+    <link rel="manifest" href="/images/site.webmanifest">
+       <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+       <meta property="og:url" content="{% if page.lang == 'es' %}{{ page.hreflang_es }}{% else %}{{ page.hreflang_en }}{% endif %}">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://blog.startsys42.com/images/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page.title }}",
+  "url": "{% if page.lang == 'es' %}{{ page.hreflang_es }}{% else %}{{ page.hreflang_en }}{% endif %}",
+  "description": "{{ page.description }}",
+  "inLanguage": "{{ page.lang }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Startsys42",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blog.startsys42.com/images/logo.png"
+    }
+  }
+}
+</script>
+</head>
+<body>
+ <div class="top-controls">
+        <div class="theme-selector">
+            <button class="theme-button" id="theme-button">
+                {% if page.lang == 'en' %}Light{% else %}Claro{% endif %} <span class="arrow">▼</span>
+            </button>
+            <div class="theme-options" id="theme-options">
+                {% if page.lang == 'en' %}
+                    <button data-theme="light">Light</button>
+                    <button data-theme="dark">Dark</button>
+                    <button data-theme="pink">Pink</button>
+                {% else %}
+                    <button data-theme="light">Claro</button>
+                    <button data-theme="dark">Oscuro</button>
+                    <button data-theme="pink">Rosa</button>
+                {% endif %}
+            </div>
+        </div>
+        
+    {% if page.lang == 'es' %}
+    <a href="{{ page.hreflang_en }}" hreflang="en">ES / EN</a>
+{% else %}
+    <a href="{{ page.hreflang_es }}" hreflang="es">EN / ES</a>
+{% endif %}
+    </div>
+      <!-- Nav MULTIDIOMA -->
+    <nav class="nav-bar" aria-label="{% if page.lang == 'en' %}Main navigation{% else %}Navegación principal{% endif %}">
+        <div class="nav-header">
+            <button class="nav-toggle" id="nav-toggle" aria-label="{% if page.lang == 'en' %}Toggle menu{% else %}Alternar menú{% endif %}">☰</button>
+        </div>
+
+        <!-- Menú según idioma -->
+        {% if page.lang == 'en' %}
+            {% include nav-en.html current_url=page.url %}
+        {% else %}
+            {% include nav-es.html current_url=page.url %}
+        {% endif %}
+    </nav>
+ 
+
+
+
+         
+    <div class="wiki">
+    {% if content %}
+            {{ content }}
+     
+        {% endif %}
+    </div>
+     <script src="/js/theme.js"></script>
+    <script src="/js/menu.js"></script>
+</body>
+</html>
