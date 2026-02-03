@@ -102,6 +102,10 @@
 
          
     <div class="wiki">
+         {% if page.sidebar %}
+    {% include {{ page.sidebar }} %}
+ 
+  {% endif %}
     {% if content %}
             {{ content }}
      
