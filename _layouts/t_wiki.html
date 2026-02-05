@@ -99,10 +99,12 @@
  
 
  <div class="sidebar-wiki">
-  {% if page.sidebar %}
-    {% include {{ page.sidebar }} %}
-      {% endif %}
- </div>   
+  {% if page.lang == 'es' %}
+      {% include wiki_es/{{ page.sidebar }} %}
+  {% else %}
+      {% include wiki_en/{{ page.sidebar }} %}
+  {% endif %}
+</div>
     <div class="wiki">
  
  
