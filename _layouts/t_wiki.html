@@ -98,14 +98,14 @@
     </nav>
  
 
-
-
-         
-    <div class="wiki">
-         {% if page.sidebar %}
+ <div class="sidebar-wiki">
+  {% if page.sidebar %}
     {% include {{ page.sidebar }} %}
+      {% endif %}
+ </div>   
+    <div class="wiki">
  
-  {% endif %}
+ 
     {% if content %}
             {{ content }}
      
