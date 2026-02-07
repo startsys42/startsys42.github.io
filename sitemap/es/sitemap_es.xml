@@ -1,2 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    <sitemap>
+        <loc>https://blog.startsys42.com/sitemap/es/sitemap_primary_es.xml</loc>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://blog.startsys42.com/sitemap/es/sitemap_estadistica_es.xml</loc>
+
+    </sitemap>
+
+     <sitemap>
+        <loc>https://blog.startsys42.com/sitemap/es/sitemap_ingles_es.xml</loc>
+
+    </sitemap>
+
+       <sitemap>
+        <loc>https://blog.startsys42.com/sitemap/es/sitemap_redes_es.xml</loc>
+
+    </sitemap>
+     <sitemap>
+        <loc>https://blog.startsys42.com/sitemap/es/sitemap_inso_es.xml</loc>
+
+    </sitemap>
+
+</sitemapindex>
 
