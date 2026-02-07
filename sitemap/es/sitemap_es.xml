@@ -24,5 +24,15 @@
 
     </sitemap>
 
+
+        <sitemap>
+        <loc>https://blog.startsys42.com/sitemap/es/sitemap_introduccion_criptografia_es.xml</loc>
+
+    </sitemap>
+     <sitemap>
+        <loc>https://blog.startsys42.com/sitemap/es/sitemap_esteganografia_es.xml</loc>
+
+    </sitemap>
+
 </sitemapindex>
 
