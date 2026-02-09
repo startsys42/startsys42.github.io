@@ -6,31 +6,7 @@ Te propongo una estructura en **bloques**, como lo haría un manual serio de for
 
 # 📘 Índice Propuesto – *Linux desde Cero hasta Administración Avanzada*
 
----
 
-## 🟢 PARTE I — Fundamentos y Filosofía
-
-### 1. ¿Qué es Linux realmente?
-
-* Historia de Unix
-* Nacimiento del Kernel Linux
-* Proyecto GNU
-* Linux vs GNU/Linux
-* ¿Qué es el Software Libre?
-* Open Source vs Software Libre
-* Licencias (GPL, MIT, Apache)
-
-### 2. Distribuciones Linux
-
-* ¿Qué es una distro?
-* Componentes de una distribución
-* Modelos de desarrollo:
-
-  * Debian (modelo comunitario estable)
-  * Red Hat (modelo empresarial)
-  * Arch Linux (modelo rolling release)
-* ¿Por qué usaremos Debian como base?
-* Comparativa entre Debian, Arch y Red Hat
 
 ---
 
